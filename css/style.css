@@ -1,6 +1,8 @@
 body{
 
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	
 }
 /*start nav*/
 .scrolled{
@@ -106,6 +108,11 @@ body{
  background: #fff;
  border-radius: 5px;
  overflow: hidden
+}
+@media (max-width: 991px){
+	.header form{
+	width: 100%
+	}
 }
 .header form .form-control{
 	border: none;
